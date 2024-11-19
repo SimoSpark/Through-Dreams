@@ -4,7 +4,7 @@ const dots = document.querySelectorAll('.dot');
 const prevBtn = document.querySelector('#prevBtn');
 const nextBtn = document.querySelector('#nextBtn');
 
-let currentIndex = 0;
+let currentIndex = 0; 
 const totalSlides = slides.length;
 
 function updateCarousel() {
